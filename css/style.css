@@ -1,0 +1,191 @@
+html {
+    position: relative;
+}
+
+body {
+    margin-bottom: 120px;
+    margin-top: 30px;
+}
+
+.jumbotron {
+    background-image: url('../img/header.-bg.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: 0 -140px;
+    color: #eaeaea;
+    overflow: hidden;
+}
+
+.jumbotron h1,
+.jumbotron p {
+    text-shadow: 1px 1px 10px rgba(0, 0, 0, 0, 0.5);
+}
+
+.jumbotron img {
+    width: 200px;
+    border: 5px solid #eaeaea;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0, 0.5);
+}
+
+hr {
+    width: 250px;
+    border-top: 1px solid #999;
+}
+
+section {
+    min-height: 420px;
+}
+
+.pKiri,
+.pKanan {
+    opacity: 0;
+    transform: translate(-50px, 0) rotate(-5deg);
+    transition: 1s;
+}
+
+.pKanan {
+    transform: translate(50px, 0) rotate(5deg);
+}
+
+.pKiri.pMuncul,
+.pKanan.pMuncul {
+    opacity: 1;
+    transform: translate(0, 0);
+}
+
+.portfolio .thumbnail {
+    opacity: 0;
+    transform: translate(0, -40px);
+    transition: .5s;
+}
+
+.portfolio .thumbnail.muncul {
+    opacity: 1;
+    transform: translate(0, 0);
+}
+
+.contact {
+    min-height: 800px;
+}
+
+footer {
+    position: absolute;
+    width: 100%;
+    height: 120px;
+    buttom: 3px;
+    background-color: #333333;
+    padding-top: 20px;
+}
+
+footer p {
+    color: #aaaaaa;
+    font-size: 1em;
+}
+
+footer p i {
+    color: salmon;
+}
+
+.row {
+    margin: 15px;
+}
+
+/* lightbox */
+.overlay {
+    width: 0;
+    height: 0;
+    overflow: hidden;
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0);
+    transition: .6s;
+    z-index: 9999;
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 210px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.overlay:target {
+    width: auto;
+    height: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(255, 255, 255, 1);
+}
+
+.overlay img {
+    max-height: 130%;
+}
+
+.overlay:target img {
+    animation: zoom .3s;
+}
+
+.overlay:target .close {
+    animation: zoom .3s;
+}
+
+.overlay .close {
+    top: 65px;
+    position: absolute;
+    color: black;
+}
+
+.pop {
+    padding-bottom: 1%;
+}
+
+.pop:hover {
+    transform: scale(1.1);
+    transition: .4s;
+}
+
+@keyframes zoom {
+    0% {
+        transform: scale(0);
+        opacity: 0;
+    }
+
+    100% {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+
+ul.haha {
+    padding: 0%;
+    list-style: none;
+    display: inline-flex;
+
+}
+
+ul.haha>li {
+    padding: 0%;
+}
+
+svg.huhu {
+    width: 10%;
+    height: 10px;
+}
+
+#ii {
+    fill: #999;
+    transition: ease-in 0.1s all;
+}
+
+#ii:hover {
+    fill: red;
+}
+
+
+.bi::before {
+    display: inline-block;
+    content: "";
+    background-image: url("data:image/svg+xml,<svg viewBox='0 0 16 16' fill='%23333' xmlns='http://www.w3.org/2000/svg'><path fill-rule='evenodd' d='M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3z' clip-rule='evenodd'/></svg>");
+    background-repeat: no-repeat;
+    background-size: 1rem 1rem;
+}

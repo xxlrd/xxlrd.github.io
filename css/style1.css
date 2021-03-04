@@ -1,0 +1,324 @@
+html {
+    position: relative;
+}
+
+body {
+    margin-bottom: 0px;
+    margin-top: 0px;
+
+}
+
+/* profile */
+.awalan {
+    padding-top: 50px;
+    text-align: center;
+    background: #fff2ce;
+    color: #753051;
+}
+
+.ikon1 {
+    margin-right: 5px;
+    width: 35px;
+}
+
+.ikon1-1 {
+    margin-left: -5px;
+    width: 35px;
+}
+
+.ikon1-2 {
+    width: 44px;
+    height: 44px;
+    margin-right: 9px;
+}
+
+@media all and (max-width: 992px) {
+    .profilep {
+        text-align: center;
+    }
+
+    #nama {
+        font-size: 1.5rem;
+        padding-left: 0px;
+        padding-top: 100px;
+        text-align: center;
+    }
+
+    #bawahnama {
+        font-size: 1.5rem;
+        padding-left: 0px;
+        padding-top: 0px;
+        text-align: center;
+    }
+
+    .profilep #cv {
+        text-align: center;
+        margin-top: 0px;
+    }
+
+    .awalan .ikonj {
+        text-align: center;
+        padding-bottom: 150px;
+    }
+
+    .ikon1 {
+        margin-right: 10px;
+        width: 35px;
+    }
+}
+
+#cv {
+    text-align: right;
+    margin-top: -70px;
+}
+
+.ikonj {
+    text-align: right;
+    padding-bottom: 10px;
+}
+
+#bawahnama {
+    margin-top: -18px;
+}
+
+
+.profilep {
+    margin-top: -100px;
+
+}
+
+#nama {
+    margin-top: -80px;
+}
+
+
+.profilep img {
+    top: 0px;
+    position: relative;
+    width: 200px;
+    border: 5px solid white;
+}
+
+.profilep p {
+    font-size: 1.5rem;
+    padding-left: 240px;
+    padding-top: 0px;
+    text-align: left;
+}
+
+.ikon1:hover {
+    fill: #dda0ce;
+}
+
+.ikon1-1:hover {
+    fill: #dda0ce;
+}
+
+.ikon1-2:hover {
+    fill: #dda0ce;
+}
+
+/* profile */
+
+/* portfolio */
+.porfolio {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.pop {
+    padding-bottom: 20px;
+}
+
+.pop:hover {
+    transform: scale(1.1);
+    transition: .4s;
+}
+
+/* portfolio */
+
+/* about */
+.curved {
+    background: #dda0ce;
+    color: #eeeeee;
+}
+
+.about {
+    position: relative;
+    margin-top: 0px;
+}
+
+.curved h2 {
+    margin-top: 20px;
+}
+
+.about svg {
+    display: block;
+}
+
+.h2about {
+    padding-bottom: 20px;
+}
+
+
+#garis {
+    height: 300px;
+    width: 0.1px;
+    background-color: #eeeeee;
+}
+
+@media all and (max-width: 992px) {
+    #garis {
+        height: 0.1px;
+        width: 500px;
+        background-color: #eeeeee;
+    }
+}
+
+#tulisan {
+    text-align: left;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+svg.huhu {
+    width: 90%;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.ikon {
+    justify-content: first baseline;
+    padding-bottom: 0px;
+    padding-top: 100px;
+    padding-left: 35px;
+}
+
+.blog {
+    justify-content: first baseline;
+    padding-bottom: 0px;
+    padding-top: 120px;
+    padding-left: 60px;
+}
+
+@media all and (max-width: 960px) {
+    #ikon {
+        justify-content: center;
+        padding-top: 70px;
+        text-align: center;
+        padding-left: 0px;
+        margin-bottom: 10px;
+    }
+
+    .curved h2 {
+        margin-top: 50px;
+    }
+
+    #tulisan {
+        text-align: center;
+        font-size: 0.9rem;
+    }
+
+}
+
+#ikon svg {
+    width: 70px;
+}
+
+.tombol {
+    background-color: #dda0ce;
+    color: #eeeeee;
+}
+
+svg.huhu {
+    width: 10%;
+    height: 10px;
+}
+
+.ikon2:hover {
+    fill: #753051;
+}
+
+/* about */
+
+/* studyc */
+.studyc {
+    margin-top: 100px;
+}
+
+.studyc h2 {
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.studycimg {
+    margin-top: 20px;
+}
+
+.studycp {
+    margin-top: 20px;
+}
+
+@media all and (max-width: 992px) {
+    .studycp {
+        margin-top: 5px;
+    }
+}
+
+/* studyc */
+
+/* akhir */
+
+.profilep2 {
+    margin-top: 100px;
+    text-align: center;
+}
+
+.profilep2 img {
+    top: 0px;
+    position: relative;
+    width: 150px;
+    border: 5px solid white;
+}
+
+.akhir {
+    padding-bottom: 100px;
+    margin-top: -70px;
+    text-align: center;
+    background: #fff2ce;
+    color: #753051;
+}
+
+.link {
+    text-align: right;
+}
+
+.mail {
+    text-align: left;
+}
+
+@media all and (max-width: 992px) {
+    .link {
+        text-align: center;
+        padding-bottom: 10px;
+    }
+
+    .mail {
+        text-align: center;
+    }
+}
+
+.akhir h2 {
+    padding-top: 100px;
+}
+
+.tombolf {
+    color: #753051;
+}
+
+/* footer */
+.footer {
+    text-align: center;
+    padding-top: 20px;
+}
